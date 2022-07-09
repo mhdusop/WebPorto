@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Home from './pages/Home';
+import Project from './pages/Project';
+import Skill from './pages/Skill';
+import Contact from './pages/Contact';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ParticleBackground from './components/particleBackground';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/project" element={<Project />}/>
+        <Route path="/skill" element={<Skill />}/>
+        <Route path="/contact" element={<Contact />}/>
+      </Routes>
+    </Router>
+    <ParticleBackground />
   </React.StrictMode>
 );
 
