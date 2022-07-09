@@ -33,7 +33,7 @@
     font-size: 70px;
 }
 
-@media (min-width: 360px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
 
     .name-tag{
         font-size: 50px;
