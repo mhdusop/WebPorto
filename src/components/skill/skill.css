@@ -1,0 +1,39 @@
+.card-template-skill{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns : repeat(auto-fill, minmax(300px, 1fr));
+}
+.card-skill{
+    border : none;
+    transition: 0.2s;
+}
+a{
+    text-decoration: none;
+}
+.icon:hover{
+    color: #fff;
+}
+.card-skill:hover{
+    box-shadow: rgba(255, 255, 255, 0.20) 0px 0px 10px 0px;
+}
+
+.card-body-skill{
+    background-color: #161b22;
+}
+
+.card-skill:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+    .card-template-skill{
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns : repeat(auto-fill, minmax(280px, 1fr));
+    }
+
+
+}    

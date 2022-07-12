@@ -1,0 +1,37 @@
+.card-template{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns : repeat(auto-fill, minmax(350px, 1fr));
+}
+.card{
+    border : none;
+    transition: 0.2s;
+}
+
+.card:hover{
+    box-shadow: rgba(255, 255, 255, 0.20) 0px 0px 10px 0px;
+}
+
+.card-body{
+    background-color: #161b22;
+}
+.iconGithub{
+    pointer-events: none;
+    color: #fff;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+@media (min-width: 300px) and (max-width: 400px) {
+
+    .card-template{
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-columns : repeat(auto-fill, minmax(280px, 1fr));
+    }
+
+
+}    
