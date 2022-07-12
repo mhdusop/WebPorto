@@ -1,8 +1,8 @@
 export const projectData = [
     {
         img : "https://i.im.ge/2022/07/11/uJKpVT.png",
-        title : "Quora Cloning",
-        subtitle : "Make Quora Cloning with React Js",
+        title : "Quora Clone",
+        subtitle : "Make Quora Clone with React Js",
         technologies : [
             "React Js",
             "Bootstrap 5"
@@ -12,8 +12,8 @@ export const projectData = [
 
     {
         img : "https://i.im.ge/2022/07/11/un5r8P.png",
-        title : "Youtube Music Cloning",
-        subtitle : "Make Youtube Music Cloning with React Js",
+        title : "Youtube Music Clone",
+        subtitle : "Make Youtube Music Clone with React Js",
         technologies : [
             "React Js",
             "Bootstrap 5"
