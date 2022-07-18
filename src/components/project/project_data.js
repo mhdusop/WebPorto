@@ -22,6 +22,16 @@ export const projectData = [
     },
 
     {
+        img : "https://i.im.ge/2022/07/18/Fr7Ztx.png",
+        title : "Hacker Rank Clone",
+        subtitle : "Make Youtube Music Clone with Javascript Bootstrap",
+        technologies : [
+            "Javascript",
+            "Bootstrap"
+        ]
+    },
+
+    {
         img : "https://i.im.ge/2022/07/11/un6b56.png",
         title : "Shanrise Online Exams Web App",
         subtitle : "Web Project Shanrise Online Exams Web App with HTML CSS Bootstrap 4 and Laravel",
@@ -39,4 +49,14 @@ export const projectData = [
             "Wordpress",
         ]
     },
+
+    {
+        img : "https://i.im.ge/2022/07/18/FrDloD.png",
+        title : "Kilat Premium Car Wash",
+        subtitle : "Web Project Kilat Premium Car Wash Company Profile with Wordpress and Divi Theme",
+        technologies : [
+            "Wordpress",
+        ]
+    },
+
 ]

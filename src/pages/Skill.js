@@ -34,7 +34,7 @@ export default class Skill extends Component{
 
                 {/* Skill Content */}
                 <div className="container mt-3 mb-4">
-                    <h1 className="text-center text-white mb-5" style={{ textTransform : "uppercase" }}>skill</h1>
+                    <h1 className="text-center text-white mb-5" style={{ textTransform : "uppercase" }}>skills</h1>
                     <div className="card-template-skill">
                         {skill}
                     </div>
