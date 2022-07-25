@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./home.css"
-import { BsInstagram } from "react-icons/bs";
-import { FaFacebookSquare , FaLinkedin} from "react-icons/fa";
+import { BsInstagram, BsGithub } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
 
 export default class Content extends Component {
     render(){
@@ -16,8 +16,8 @@ export default class Content extends Component {
                     <a href="https://www.instagram.com/mhduusop/">
                         <BsInstagram className="icon" />
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=100010430771081">
-                        <FaFacebookSquare className="icon" />
+                    <a href="https://github.com/mhdusop">
+                        <BsGithub className="icon" />
                     </a>
                     <a href="https://www.linkedin.com/in/mhdusop/">
                         <FaLinkedin className="icon" />

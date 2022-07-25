@@ -1,14 +1,13 @@
 /* Content */
 .me-img{
     border-radius: 100%;
-    filter: grayscale(100%);
     transition: 0.2s;
     box-shadow: rgba(255, 255, 255, 0.25) 0px 0px 50px -12px;
 }
-.me-img:hover{
+/* .me-img:hover{
     filter: none;
     box-shadow: rgba(255, 255, 255, 0.39) 0px 0px 60px -12px;
-}
+} */
 
 .content{
     margin-top: 50px !important;
@@ -19,12 +18,12 @@
     font-size: 30px;
 }
 
-.icon{
-    color: #fff;
+.icon-wrap .icon:hover{
+    color :rgb(122, 122, 122)
 }
 
-.icon:hover{
-    color: rgb(122, 122, 122);
+.icon{
+    color: #fff;
 }
 
 .name-tag{

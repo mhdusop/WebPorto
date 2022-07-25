@@ -18,9 +18,21 @@ export const skillData = [
     },
 
     {
+        logo : "https://i.im.ge/2022/07/25/FIkNV6.png",
+        name : "Bootstrap",
+        experience : "2 year"
+    },
+
+    {
+        logo : "https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/jquery-256.png",
+        name : "jQuery",
+        experience : "2 year"
+    },
+
+    {
         logo : "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
         name : "React",
-        experience : "2 month"
+        experience : "3 month"
     },
 
     {
@@ -33,12 +45,6 @@ export const skillData = [
         logo : "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/194_Laravel_logo_logos-256.png",
         name : "Laravel",
         experience : "5 month"
-    },
-
-    {
-        logo : "https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/jquery-256.png",
-        name : "jQuery",
-        experience : "1 year"
     },
 
     {
