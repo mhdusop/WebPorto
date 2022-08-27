@@ -18,6 +18,7 @@ export default class Navbar extends Component {
                                 })}
                             > Home 
                             </NavLink>
+
                             <NavLink to="/project" className={"nav-link"}
                                 style={({ isActive }) => ({
                                     color: isActive ? '#fff' : '#545e6f',
@@ -25,12 +26,13 @@ export default class Navbar extends Component {
                             > Projects
                             </NavLink>
                         
-                            <NavLink to="/skill" className={"nav-link"}
+                            {/* <NavLink to="/skill" className={"nav-link"}
                                 style={({ isActive }) => ({
                                     color: isActive ? '#fff' : '#545e6f',
                                 })}
                             > Skills
-                            </NavLink>
+                            </NavLink> */}
+
                             <NavLink to="/contact" className={"nav-link"}
                                 style={({ isActive }) => ({
                                     color: isActive ? '#fff' : '#545e6f',

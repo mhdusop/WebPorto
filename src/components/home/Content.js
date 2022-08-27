@@ -9,7 +9,7 @@ export default class Content extends Component {
             <div className="content text-center mt-4">
                 <img className="me-img" src={"https://i.im.ge/2022/07/09/upSUxa.jpg"} alt={"Me"} width={"250"} />
                 <h1 className="mt-4 name-tag">Muhammad Yusof</h1>
-                <h4 className="text-white" style={{ fontWeight : "normal"}}>Front End Web Developer</h4>
+                <h3 className="text-white" style={{ fontWeight : "normal"}}>Front End Web Developer</h3>
                 
                 {/* icon Sosmed */}
                 <span className="icon-wrap mt-4">

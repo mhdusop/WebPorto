@@ -1,6 +1,7 @@
 import { Component, Fragment } from "react";
 import Navbar from "../components/navbar/Navbar";
 import { contactData } from "../components/contact/contact_data";
+import '../components/contact/contact.css'
 
 export default class Contact extends Component {
 
