@@ -21,23 +21,17 @@ export default class Project extends Component {
                     <div class="card-body">
                         <h5 class="card-title text-white">{data.title}</h5>
                         <p class="card-text text-white ">{data.subtitle}</p>
-                        <div className="row">
-                            <div className="col">
-                                <div className="d-flex">
-                                    <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[0]}</span></h5>
-                                    <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[1]}</span></h5>
-                                    <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[2]}</span></h5>
-                                    <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[3]}</span></h5>
-                                </div>
-                            </div>
-                            <div className="col">
-                                <span className="icon float-end">
-                                    <a href={data.github} style={{display: checkData}}>
-                                        <BsGithub className="iconGithub" />
-                                    </a>
-                                </span>
-                            </div>
+                        <div className="d-flex float-start">
+                            <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[0]}</span></h5>
+                            <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[1]}</span></h5>
+                            <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[2]}</span></h5>
+                            <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[3]}</span></h5>
                         </div>
+                        <span className="icon float-end">
+                            <a href={data.github} style={{display: checkData}}>
+                                <BsGithub className="iconGithub" />
+                            </a>
+                        </span>
                     </div>
                 </div>
             )

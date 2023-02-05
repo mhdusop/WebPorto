@@ -1,6 +1,6 @@
 export const projectData = [
     {
-        img: "https://i.im.ge/2023/02/05/aiOQTY.e-library-1.png",
+        img: "https://i.im.ge/2023/02/05/aiOGpL.e-library-1.png",
         title : "E-Library",
         subtitle : "Develop E-Library website for exam (UAS)",
         technologies : [
