@@ -1,8 +1,8 @@
 import { Component, Fragment } from "react";
 import Navbar from "../components/navbar/Navbar";
 import { projectData } from "../components/project/project_data";
-// import { BsGithub } from "react-icons/bs"
-import '../components/project/project.css'
+import { BsGithub } from "react-icons/bs"
+import '../assets/css/project.css'
 
 export default class Project extends Component {
     constructor(props) {
@@ -14,6 +14,7 @@ export default class Project extends Component {
 
     render() {
         const project = this.state.data.map((data) => {
+            const checkData = data.github === "" ? "none" : ""
             return (
                 <div class="card" style={{ width: "auto" }}>
                     <img src={data.img} className={"card-img-top"} alt="" />
@@ -29,14 +30,13 @@ export default class Project extends Component {
                                     <h5><span class="badge bg-secondary m-1" style={{ borderRadius: "0px" }}>{data.technologies[3]}</span></h5>
                                 </div>
                             </div>
-                            {/* Icon Github */}
-                            {/* <div className="col">
+                            <div className="col">
                                 <span className="icon float-end">
-                                    <a href={data.github}>
+                                    <a href={data.github} style={{display: checkData}}>
                                         <BsGithub className="iconGithub" />
                                     </a>
                                 </span>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

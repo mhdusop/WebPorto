@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./home.css"
+import '../../assets/css/home.css'
 import { BsInstagram, BsGithub } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 

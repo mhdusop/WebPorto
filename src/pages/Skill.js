@@ -1,7 +1,7 @@
 import { Component, Fragment} from "react";
 import Navbar from "../components/navbar/Navbar";
 import { skillData } from "../components/skill/skill_data";
-import "../components/skill/skill.css";
+import '../assets/css/skill.css'
 
 export default class Skill extends Component{
 
