@@ -44,7 +44,7 @@ export default class Project extends Component {
 
                 {/* Content Project */}
                 <div className="container mt-3 mb-4">
-                    <h1 className="text-center text-white mb-5" style={{ textTransform : "uppercase" }}>Projects</h1>
+                    <h1 className="text-center text-white mb-5" style={{ textTransform : "uppercase" }}>Portfolio</h1>
                     <div className="card-template">
                         {project}
                     </div>

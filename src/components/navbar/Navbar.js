@@ -19,11 +19,11 @@ export default class Navbar extends Component {
                             > Home 
                             </NavLink>
 
-                            <NavLink to="/project" className={"nav-link"}
+                            <NavLink to="/portfolio" className={"nav-link"}
                                 style={({ isActive }) => ({
                                     color: isActive ? '#fff' : '#545e6f',
                                 })}
-                            > Projects
+                            > Portfolio
                             </NavLink>
                         
                             {/* <NavLink to="/skill" className={"nav-link"}
